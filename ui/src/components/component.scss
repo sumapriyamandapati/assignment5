@@ -1,0 +1,28 @@
+.field-wrapper {
+  margin: 1rem 0;
+}
+
+.file-name {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  cursor: pointer;
+  :hover {
+    text-decoration: underline;
+  }
+}
+
+.file-upload-wrapper {
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.show-image {
+  display: block;
+}
+
+.dont-show-image {
+  display: none;
+}

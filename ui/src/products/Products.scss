@@ -1,0 +1,42 @@
+.products {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto;
+
+  .field {
+    margin: 10px;
+  }
+}
+
+.file-upload {
+  display: none;
+}
+
+.upload-button {
+  width: 100%;
+}
+
+.action-button {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
